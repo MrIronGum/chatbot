@@ -24,7 +24,6 @@ click
 cmake
 cohere
 colorama
-command-not-found
 cryptography
 cupshelpers
 cycler
