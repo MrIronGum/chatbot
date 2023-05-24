@@ -27,7 +27,6 @@ colorama
 cryptography
 cycler
 dataclasses-json
-dbus-python
 debugpy
 decorator
 defer
