@@ -2,7 +2,6 @@ aiohttp
 aiosignal
 altair
 appdirs
-apturl
 argon2-cffi
 async-timeout
 attrs
