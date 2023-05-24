@@ -34,7 +34,6 @@ defusedxml
 distro
 distro-info
 duckdb
-duplicity
 entrypoints
 fasteners
 filelock
