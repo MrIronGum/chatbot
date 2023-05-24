@@ -25,7 +25,6 @@ cmake
 cohere
 colorama
 cryptography
-cupshelpers
 cycler
 dataclasses-json
 dbus-python
