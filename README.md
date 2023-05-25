@@ -31,6 +31,11 @@ To run this app locally, you need to follow these steps:
 
 # Usage
 
+Link to Cohere: 
+https://cohere.com/
+
+Copy and paste your API_KEY 
+
 Open the Streamlit app in your web browser.
 
 Enter the URL of the website you want to generate a summary from in the provided text input.
