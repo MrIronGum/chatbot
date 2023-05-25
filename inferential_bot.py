@@ -33,7 +33,7 @@ def parse_website(url):
 # Website input
 website_url = st.text_input("Enter the website URL:")
 
-# Generate summary and poem
+# Generate summary
 if st.button("Generate") and website_url:
     # Load the website and extract the summary
     website_content = parse_website(website_url)
@@ -47,5 +47,5 @@ if st.button("Generate") and website_url:
     )
     intro_paragraph = response.generations[0].text
 
-    # Display the generated poem
+    # Display summary
     st.write(intro_paragraph)
