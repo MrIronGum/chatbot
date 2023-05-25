@@ -23,7 +23,6 @@ To run this app locally, you need to follow these steps:
    
 4. Run the app:
    
-   ```shell
    streamlit run app.py
    
 
