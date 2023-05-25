@@ -24,7 +24,7 @@ To run this app locally, you need to follow these steps:
    streamlit run app.py
    
 
-Usage
+# Usage
 
 Open the Streamlit app in your web browser.
 
@@ -36,7 +36,7 @@ The app will load the website content, extract the text, and generate a summary 
 
 The generated summary will be displayed below the button.
 
-Code Explanation
+# Code Explanation
 The main code of this app is written in Python and uses the following libraries:
 
 streamlit: Used to create the web interface and handle user input and display.
