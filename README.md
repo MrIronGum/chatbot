@@ -15,11 +15,13 @@ To run this app locally, you need to follow these steps:
 
   ```shell
    cd your_repository
+   ```
    
 3. Install the required dependencies:
    
    ```shell
    pip install -r requirements.txt
+   ```
    
 4. Run the app:
    
