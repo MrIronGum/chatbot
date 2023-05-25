@@ -12,15 +12,18 @@ To run this app locally, you need to follow these steps:
    git clone https://github.com/your_username/your_repository.git
 
 2. Change to the project directory: 
-  
+
+  ```shell
    cd your_repository
    
 3. Install the required dependencies:
    
+   ```shell
    pip install -r requirements.txt
    
 4. Run the app:
    
+   ```shell
    streamlit run app.py
    
 
