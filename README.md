@@ -1,77 +1,25 @@
-# Website Summary Generator
+The Website Summary Generator is a Streamlit app that generates a summary of a website by scraping its HTML content and using the Cohere API for text summarization. Here's how you can install and use the app:
 
-This is a Streamlit app that generates a summary of a website based on its content. It utilizes web scraping techniques to parse the HTML of the website and extract the text. The extracted text is then used as a prompt for the Cohere API to generate a summary.
+Installation:
+1. Clone the repository: `git clone https://github.com/your_username/your_repository.git`
+2. Navigate to the project directory: `cd your_repository`
+3. Install the required dependencies: `pip install -r requirements.txt`
+4. Run the app: `streamlit run app.py`
 
-## Installation
-
-To run this app locally, you need to follow these steps:
-
-1. Clone this repository:
-
-   ```shell
-   git clone https://github.com/your_username/your_repository.git
-
-2. Change to the project directory: 
-
-   ```shell
-   cd your_repository
-   ```
-   
-3. Install the required dependencies:
-   
-   ```shell
-   pip install -r requirements.txt
-   ```
-   
-4. Run the app:
-   
-   ```shell
-   streamlit run app.py
-   ```
-## Configuration
-
-Before running the app, you need to configure it with your own API key. Follow the steps below to copy and paste your API key:
-
+Configuration:
+Before running the app, you need to configure it with your own API key:
 1. Sign up for an account on the Cohere website (https://cohere.ai) if you haven't already.
-
 2. Obtain your API key from the Cohere dashboard or API settings page.
-
 3. Open the `app.py` file in a text editor or IDE.
+4. Locate the following line of code: `co = cohere.Client("YOUR_API_KEY")`
+5. Replace `"YOUR_API_KEY"` with your actual API key.
 
-4. Locate the following line of code:
-
-   ```python
-   co = cohere.Client("YOUR_API_KEY")
-   ```
-# Usage
-
-
-Open the Streamlit app in your web browser.
-
-Enter the URL of the website you want to generate a summary from in the provided text input.
-
-Click on the "Generate" button.
-
+Usage:
+1. Open the Streamlit app in your web browser.
+2. Enter the URL of the website you want to generate a summary from in the provided text input.
+3. Click on the "Generate" button.
 The app will load the website content, extract the text, and generate a summary using the Cohere API.
-
 The generated summary will be displayed below the button.
+The code for the app is written in Python and utilizes the following libraries: Streamlit for creating the web interface and handling user input and display, Cohere for accessing the Cohere API for text summarization, requests for making HTTP requests to retrieve website content, BeautifulSoup (imported as BeautifulSoup4) for parsing the HTML and extracting text, and re for performing regular expression operations to clean up the text content.
 
-# Code Explanation
-The main code of this app is written in Python and uses the following libraries:
-
-streamlit: Used to create the web interface and handle user input and display.
-cohere: A Python client for the Cohere API, which is used to generate the summary.
-requests: Used to make HTTP requests to retrieve the website content.
-beautifulsoup4 (imported as BeautifulSoup): Used to parse the HTML content of the website and extract the text.
-re: Used for regular expression operations to clean up the text content.
-The app starts by setting up the Streamlit configuration, including the page title.
-
-The parse_website function takes a URL as input and retrieves the HTML content of the website. It then uses BeautifulSoup to remove unwanted elements (like images) from the HTML and extract the text content. The text is cleaned by removing multiple whitespaces and newlines before being returned.
-
-The app prompts the user to enter a website URL using the text_input function.
-
-When the user clicks on the "Generate" button, the app calls the parse_website function to load the website content and extract the text. It then uses the Cohere client to generate a summary based on the extracted text. The generated summary is displayed using the write function from Streamlit.
-
-Please note that you may need to replace the Cohere API key in the code with your own API key to use the app.
-
-Feel free to explore and modify the code according to your needs!
+Please note that you need to replace "YOUR_API_KEY" in the code with your actual Cohere API key in order to use the app effectively. Feel free to explore and modify the code according to your requirements.
