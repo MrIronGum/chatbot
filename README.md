@@ -13,7 +13,7 @@ To run this app locally, you need to follow these steps:
 
 2. Change to the project directory: 
 
-  ```shell
+   ```shell
    cd your_repository
    ```
    
@@ -25,8 +25,9 @@ To run this app locally, you need to follow these steps:
    
 4. Run the app:
    
+   ```shell
    streamlit run app.py
-   
+   ```
 
 # Usage
 
