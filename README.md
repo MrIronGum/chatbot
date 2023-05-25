@@ -1,12 +1,13 @@
+# Website Summary Generator
 The Website Summary Generator is a Streamlit app that generates a summary of a website by scraping its HTML content and using the Cohere API for text summarization. Here's how you can install and use the app:
 
-Installation:
+# Installation:
 1. Clone the repository: `git clone https://github.com/your_username/your_repository.git`
 2. Navigate to the project directory: `cd your_repository`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the app: `streamlit run app.py`
 
-Configuration:
+# Configuration:
 Before running the app, you need to configure it with your own API key:
 1. Sign up for an account on the Cohere website (https://cohere.ai) if you haven't already.
 2. Obtain your API key from the Cohere dashboard or API settings page.
@@ -14,7 +15,7 @@ Before running the app, you need to configure it with your own API key:
 4. Locate the following line of code: `co = cohere.Client("YOUR_API_KEY")`
 5. Replace `"YOUR_API_KEY"` with your actual API key.
 
-Usage:
+# Usage:
 1. Open the Streamlit app in your web browser.
 2. Enter the URL of the website you want to generate a summary from in the provided text input.
 3. Click on the "Generate" button.
