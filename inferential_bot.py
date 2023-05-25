@@ -38,7 +38,7 @@ if st.button("Generate") and website_url:
     # Load the website and extract the summary
     website_content = parse_website(website_url)
 
-    # Generate poem using cohere client
+    # Generate summary using cohere client
     response = co.generate(
         model="command-nightly",
         prompt=website_content,
