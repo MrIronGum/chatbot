@@ -10,7 +10,7 @@ st.set_page_config(page_title="Generator", page_icon=":tada:", layout="wide")
 st.title("Generator")
 
 # Initialize the cohere client
-co = cohere.Client("hX3l9Xe2kEOrvaCFgdzIeUI20C5lr4GiYq0pTEiY")
+co = cohere.Client("API_KEY")
 
 # Website parser
 def parse_website(url):
