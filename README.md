@@ -28,13 +28,23 @@ To run this app locally, you need to follow these steps:
    ```shell
    streamlit run app.py
    ```
+## Configuration
 
+Before running the app, you need to configure it with your own API key. Follow the steps below to copy and paste your API key:
+
+1. Sign up for an account on the Cohere website (https://cohere.ai) if you haven't already.
+
+2. Obtain your API key from the Cohere dashboard or API settings page.
+
+3. Open the `app.py` file in a text editor or IDE.
+
+4. Locate the following line of code:
+
+   ```python
+   co = cohere.Client("YOUR_API_KEY")
+   ```
 # Usage
 
-Link to Cohere: 
-https://cohere.com/
-
-Copy and paste your API_KEY 
 
 Open the Streamlit app in your web browser.
 
