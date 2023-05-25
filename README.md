@@ -11,7 +11,7 @@ The Website Summary Generator is a Streamlit app that generates a summary of a w
 Before running the app, you need to configure it with your own API key:
 1. Sign up for an account on the Cohere website (https://cohere.ai) if you haven't already.
 2. Obtain your API key from the Cohere dashboard or API settings page.
-3. Open the `app.py` file in a text editor or IDE.
+3. Open the `inferential_bot.py` file in a text editor or IDE.
 4. Locate the following line of code: `co = cohere.Client("YOUR_API_KEY")`
 5. Replace `"YOUR_API_KEY"` with your actual API key.
 
